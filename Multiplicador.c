@@ -12,7 +12,7 @@ int main(){
     scanf("%d",&x);
     printf("Digite o valor de y: ");
     scanf("%d",&y);
-    printf("O resultado da multiplicacao de x por y e: %d",multiplicacao(x,y));
+    printf("O resultado da multiplicacao de %d por %d e: %d",x,y,multiplicacao(x,y));
     return 0;
 }
 
