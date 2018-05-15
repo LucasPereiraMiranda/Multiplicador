@@ -30,6 +30,7 @@ int caso1(int x,int y){
     }
     return soma;
 }
+
 int caso2(int x,int y){
     int i,soma=0;
     for(i=0;i<x;i++){
@@ -37,6 +38,7 @@ int caso2(int x,int y){
     }
     return soma;
 }
+
 int caso3(int x,int y){
     int i,soma=0;
     for(i=0;i<y;i++){
@@ -44,6 +46,7 @@ int caso3(int x,int y){
     }
     return soma;
 }
+
 int caso4(int x,int y){
     int i,soma=0;
     if(x>y){
@@ -58,6 +61,7 @@ int caso4(int x,int y){
     }
     return -soma;
 }
+
 int multiplicacao(int x,int y){
     if(x>=0 && y>=0){
         return caso1(x,y);
