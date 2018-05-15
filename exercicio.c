@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 
 int multiplicacao(int x,int y);
 
@@ -51,11 +50,8 @@ int multiplicacao(int x,int y){
                 soma=soma+x;
             }
         }
-        if(x%2==0 && y%2==0 || x%2==1 && y%2==1){
-            return soma;
-        }
-        else{
-            return -soma;
-        }
+        return -soma;
     }
 }
+
+
